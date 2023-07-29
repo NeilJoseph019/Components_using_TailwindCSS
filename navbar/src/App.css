@@ -1,0 +1,4 @@
+.content{
+    @apply text-center text-4xl font-generalFont;
+    @apply mt-4;
+}

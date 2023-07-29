@@ -1,0 +1,44 @@
+/* For FULL screens */
+.nav_container{
+    @apply bg-green-400;
+    @apply mt-2 rounded-[1rem];
+    @apply p-3; /*  left and right padding inside the container */
+    @apply max-w-6xl;  /* max-width of the container */
+    @apply flex;
+    @apply justify-between items-center;
+    @apply mx-[auto]; /* "auto" - will give equal spacing both on the left and the right outside of this container */
+    @apply font-generalFont font-light ;
+    @apply shadow-md;
+}
+
+/* For logo and tab1 container */
+.logo_home {
+    @apply flex;
+    @apply w-[30%];
+    @apply justify-around items-center;
+}
+
+.logo_image {
+    @apply w-[3rem] h-[3rem];
+}
+.logo {
+    @apply flex items-center;
+    @apply font-generalFont font-extrabold uppercase;
+    
+}
+
+button{
+    @apply p-2;
+}
+
+button:hover{
+    @apply bg-green-500 font-medium rounded transition duration-500;
+}
+
+.tabs {
+    @apply flex;
+    @apply w-[70%];
+    @apply justify-around;
+}
+
+/* For TAB or MOBILE screens */
