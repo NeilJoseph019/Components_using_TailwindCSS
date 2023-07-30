@@ -3,7 +3,7 @@
     @apply bg-green-400;
     @apply mt-2 rounded-[1rem];
     @apply p-3; /*  left and right padding inside the container */
-    @apply max-w-6xl;  /* max-width of the container */
+    @apply w-[90%];  /* max-width of the container */
     @apply flex;
     @apply justify-between items-center;
     @apply mx-[auto]; /* "auto" - will give equal spacing both on the left and the right outside of this container */
@@ -14,7 +14,7 @@
 /* For logo and tab1 container */
 .logo_home {
     @apply flex;
-    @apply w-[30%];
+    @apply w-[60%] md:w-[30%];
     @apply justify-around items-center;
 }
 
@@ -23,8 +23,7 @@
 }
 .logo {
     @apply flex items-center;
-    @apply font-generalFont font-extrabold uppercase;
-    
+    @apply font-generalFont font-extrabold uppercase; 
 }
 
 button{
@@ -36,9 +35,24 @@ button:hover{
 }
 
 .tabs {
-    @apply flex;
+    @apply hidden;
+    @apply md:flex;
     @apply w-[70%];
     @apply justify-around;
 }
 
 /* For TAB or MOBILE screens */
+
+.tabs_bars{
+    @apply md:hidden ;
+}
+
+.tabs_mobile_view{
+    @apply mt-2 mx-[3rem] rounded-[1rem] md:hidden;
+    @apply bg-green-300;
+    @apply text-center;
+}
+.tabs_mobile_view button, button:hover{
+    @apply  w-full rounded-[1rem];
+}
+
