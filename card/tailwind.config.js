@@ -5,7 +5,12 @@ module.exports = {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'mainText': ['Josefin Sans', 'sans-serif'],
+        'description' : ['Borel', 'cursive']
+      }
+    },
   },
   plugins: [],
 }
