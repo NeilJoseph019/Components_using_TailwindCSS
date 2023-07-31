@@ -1,4 +1,4 @@
-** Navbar using Tailwind CSS **
+**Navbar using Tailwind CSS**
 
 `Fig1 - Full Screen View:`
 <br />   
