@@ -6,9 +6,9 @@ import CardC from './components/cardC/CardC';
 
 function App() {
   return (
-    <div className='p-6'>
+    <div className='p-10 '>
       <h1 className='font-mainText font-extrabold text-[40px] '> Hello Welcome ! Following are the different designs of cards... </h1>
-      <div className='grid grid-cols-3 gap-5'>
+      <div className='grid grid-cols-2 gap-5'>
         <div>
           <h3 className='font-mainText'> Card 1 </h3>
           <CardA/>
