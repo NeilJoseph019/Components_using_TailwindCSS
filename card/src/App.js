@@ -1,6 +1,7 @@
 import './App.css';
 import CardA from './components/cardA/CardA'
 import CardB from './components/cardB/CardB';
+import CardC from './components/cardC/CardC';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         </div>
         <div>
           <h3 className='font-mainText'> Card 3 </h3>
+          <CardC/>
         </div>
       </div>
     </div>
